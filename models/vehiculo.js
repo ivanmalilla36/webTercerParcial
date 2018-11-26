@@ -5,8 +5,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const VehiculoShema = Schema({
-	title: String,
-	description: String,
+	Marca: String,
+	Modelo: String,
+	Año: String,
+	Deuda: String,
 	url: String
 })
 
