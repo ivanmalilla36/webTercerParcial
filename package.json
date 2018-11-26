@@ -1,0 +1,26 @@
+{
+  "name": "webtercerparcial",
+  "version": "1.0.0",
+  "description": "este es la aplicacion del tercer parcial de programacion de internet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanmalilla36/webTercerParcial.git"
+  },
+  "author": "Ivan Antonio Ibarra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanmalilla36/webTercerParcial/issues"
+  },
+  "homepage": "https://github.com/ivanmalilla36/webTercerParcial#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.13",
+    "nodemon": "^1.18.6"
+  }
+}
